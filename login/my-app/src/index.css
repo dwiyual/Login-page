@@ -13,11 +13,13 @@ code {
 }
 
 .logo {
-position: absolute;
-width: 72px;
-height: 72px;
-left: 292px;
-top: 155px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+width: 4.5rem;
+height: 4.5rem;
+left: 25rem;
 
 }
 
