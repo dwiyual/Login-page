@@ -43,7 +43,7 @@ class Login extends React.Component {
                     </label>
                     <p className="forgotpassword">Forgot Password?</p>
                     <div className="frame7">
-                        <span className="login">LogIn</span>
+                        <span className="login">Login</span>
                     </div>
                 </form>
             </div>
