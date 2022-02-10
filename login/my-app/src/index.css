@@ -24,9 +24,10 @@ top: 155px;
 .wrapper {
 display: flex;
 flex-direction: column;
+justify-content: center;
 position: relative;
-width: 1440px;
-height: 1024px;
+width: 100vw;
+height: 100vh;
 
 background: #FFFFFF;
 }
@@ -37,11 +38,11 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 0px;
-position: absolute;
+position: relative;
 width: 420px;
 height: 505px;
 left: 510px;
-top: 300px;
+top: 50px;
 }
 
 .frame13{
@@ -373,7 +374,7 @@ margin: 8px 0px;
   margin: 32px 0px;
 }
 
-.Login {
+.login {
   position: static;
 width: 48px;
 height: 25px;
@@ -397,11 +398,11 @@ margin: 0px 13px;
   justify-content: center;
   align-items: center;
   padding: 0px;
-  position: absolute;
+  position: relative;
   width: 317px;
   height: 25px;
   left: 573px;
-  top: 917px;
+  top: 600px;
   
 }
 
