@@ -12,17 +12,432 @@ code {
     monospace;
 }
 
+.logo {
+position: absolute;
+width: 72px;
+height: 72px;
+left: 292px;
+top: 155px;
+
+}
+
+.wrapper {
+display: flex;
+flex-direction: column;
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+}
+
 .frame14 {
-  display: flex;
+display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 0px;
-
 position: absolute;
 width: 420px;
 height: 505px;
 left: 510px;
 top: 300px;
+}
 
+.frame13{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 420px;
+height: 151px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 36px 0px;
+}
+
+.frame1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: static;
+  width: 420px;
+  height: 45px;
+  left: 0px;
+  top: 106px;
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px;
+  
+}
+
+.frame2{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 367px;
+height: 74px;
+left: 0px;
+top: 0px;
+}
+
+.login-h1{
+  position: static;
+width: 367px;
+height: 49px;
+left: 0px;
+top: 0px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+color: #525252;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 3px 0px;
+}
+
+.login-h2 {
+  position: static;
+width: 289px;
+height: 22px;
+left: 0px;
+top: 52px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #525252;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 3px 0px;
+}
+
+.img2 {
+  position: static;
+width: 25px;
+height: 25px;
+left: 120px;
+top: 10px;
+
+background: url(./images/google.png);
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 13px;
+}
+
+.google-text {
+  position: static;
+width: 142px;
+height: 19px;
+left: 158px;
+top: 13px;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 19px;
+
+
+/* Gray 3 */
+
+color: #828282;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 13px
+}
+
+.span-border {
+  position: static;
+width: 254px;
+height: 16px;
+left: 83px;
+top: 187px;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+
+color: #DDDDDD;
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 36px 0px;
+
+}
+
+.frame12 {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 420px;
+height: 266px;
+left: 0px;
+top: 239px;
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 36px 0px;
+}
+
+.frame11 {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 420px;
+height: 184px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 32px 0px;
+
+}
+
+.frame5 {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 420px;
+height: 68px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+.frame9 {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 420px;
+height: 92px;
+left: 0px;
+top: 92px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+.frame3 {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 13px 10px;
+position: static;
+width: 420px;
+height: 45px;
+left: 0px;
+top: 23px;
+border: 1px solid #DED2D9;
+box-sizing: border-box;
+border-radius: 5px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 4px 0px;
+}
+
+.frame4 {
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 18px 10px 13px;
+position: static;
+width: 420px;
+height: 45px;
+left: 0px;
+top: 23px;
+border: 1px solid #DED2D9;
+box-sizing: border-box;
+border-radius: 5px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 4px 0px;
+}
+
+.frame8 {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 420px;
+height: 16px;
+left: 0px;
+top: 76px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 99px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 222px;
+}
+
+.forgotpassword {
+  position: static;
+  display: none;
+  height: 16px;
+  left: 321px;
+  right: -321px;
+  top: calc(50% - 16px/2);
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #7F265B;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 222px;
+}
+
+.frame7{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 10px 12px;
+  
+  position: static;
+  width: 420px;
+  height: 50px;
+  left: 0px;
+  top: 216px;
+  background: #7F265B;
+  border-radius: 6px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+
+.Login {
+  position: static;
+width: 48px;
+height: 25px;
+left: 186px;
+top: 13px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 13px;
+}
+
+.frame10 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: 317px;
+  height: 25px;
+  left: 573px;
+  top: 917px;
+  
+}
+
+.not-registered {
+  position: static;
+  width: 159px;
+  height: 25px;
+  left: 0px;
+  top: 0px;
+  
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #828282;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.create-account {
+  position: static;
+  width: 148px;
+  height: 25px;
+  left: 169px;
+  top: 0px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #7F265B;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 10px
 }
