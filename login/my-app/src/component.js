@@ -5,7 +5,15 @@ import { useState } from "react";
 
 function Login() {
     const headermessage = "Login to your account";
+
     const h3Message = "how can we help you buisness";
+
+    const [user, setUser] = useState({username: '', password: '' });
+
+    const handleInput = (Event) => {
+        setUser(...user,{[Event.target.name]: Event.target.value});
+        console.log(user);
+    };
 
     return <div className="wrapper">
         <div className="logo">
@@ -29,11 +37,11 @@ function Login() {
                 <form className="frame11">
                     <label className="frame5">
                         Email
-                        <input className="frame3" placeholder="mail@abc.com"></input>
+                        <input  onChange={Event => handleInput(Event)} className="frame3" placeholder="mail@abc.com" name="username" value={user.username}> </input>
                     </label>
                     <label className="frame9">
                         Password
-                        <input className="frame4" placeholder="********"></input>
+                        <input onChange={Event => handleInput(Event)} className="frame4" placeholder="********" name="password" value={user.password}></input>
                     </label>
                     <label htmlFor="checkbox" className="frame8">
                         <input className="checkbox" type="checkbox" id="checkbox" placeholder="Remember Me"></input>
