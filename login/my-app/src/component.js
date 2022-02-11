@@ -15,6 +15,11 @@ function Login() {
         console.log(user);
     };
 
+    const handleSubmit = (Event) => {
+        setUser({username: '', password: ''});
+        alert('You are logged in!');
+    };
+
     return <div className="wrapper">
         <div className="logo">
             <img alt=""></img>
@@ -48,7 +53,7 @@ function Login() {
                     </label>
                     <p className="forgotpassword">Forgot Password?</p>
                     <div className="frame7">
-                        <button className="login">Login</button>
+                        <button onSubmit={Event => handleSubmit(Event)} className="login">Login</button>
                     </div>
                 </form>
             </div>
