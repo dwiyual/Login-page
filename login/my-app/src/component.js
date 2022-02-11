@@ -48,7 +48,7 @@ function Login() {
                     </label>
                     <p className="forgotpassword">Forgot Password?</p>
                     <div className="frame7">
-                        <span className="login">Login</span>
+                        <button className="login">Login</button>
                     </div>
                 </form>
             </div>
